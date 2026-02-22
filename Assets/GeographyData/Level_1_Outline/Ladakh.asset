@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b92705b55ada58d4897afade18e5d381, type: 3}
+  m_Name: Ladakh
+  m_EditorClassIdentifier: 
+  featureName: Ladakh
+  easyClue: 
+  mediumClue: 
+  hardClue: 
+  picture: {fileID: 6268061466158227610, guid: a1ef36d74ebf8914d927e21cb5b9fac5, type: 3}

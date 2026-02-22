@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b92705b55ada58d4897afade18e5d381, type: 3}
+  m_Name: Varanasi
+  m_EditorClassIdentifier: 
+  featureName: Varanasi
+  easyClue: One of the oldest continuously inhabited cities
+  mediumClue: Located on a major river bank
+  hardClue: Urban life organised around river access
+  picture: {fileID: 1765358185781258912, guid: 37b7dff8e189cf543a97c82802135e19, type: 3}

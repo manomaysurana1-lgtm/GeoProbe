@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b92705b55ada58d4897afade18e5d381, type: 3}
+  m_Name: Rameswaram
+  m_EditorClassIdentifier: 
+  featureName: Rameswaram
+  easyClue: Southern coastal religious site
+  mediumClue: Connected by a narrow land bridge
+  hardClue: Located between mainland and island geography
+  picture: {fileID: -609114253260640041, guid: e600ee3014febe3438a1e078e47b2d55, type: 3}

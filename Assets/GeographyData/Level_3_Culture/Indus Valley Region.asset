@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b92705b55ada58d4897afade18e5d381, type: 3}
+  m_Name: Indus Valley Region
+  m_EditorClassIdentifier: 
+  featureName: Indus Valley Region
+  easyClue: One of the earliest urban civilisations
+  mediumClue: Located near a major river system
+  hardClue: Declined as river patterns changed
+  picture: {fileID: 4852782536521988194, guid: 9105ceca91d58ce468bf9529839c6e08, type: 3}

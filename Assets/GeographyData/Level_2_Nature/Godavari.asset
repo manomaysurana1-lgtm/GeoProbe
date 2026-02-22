@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b92705b55ada58d4897afade18e5d381, type: 3}
+  m_Name: Godavari
+  m_EditorClassIdentifier: 
+  featureName: Godavari
+  easyClue: Longest river of peninsular India
+  mediumClue: Flows east from central India into the Bay of Bengal
+  hardClue: Drains a large plateau region before forming a delta
+  picture: {fileID: 3808965974940030448, guid: 53aeefa71b8116b4c938c6c2dd0538d3, type: 3}
