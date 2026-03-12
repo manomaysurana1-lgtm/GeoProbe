@@ -1,12 +1,17 @@
-using UnityEngine;
-using TMPro;
-using UnityEngine.UI;
+using System.Collections;
 using System.Collections.Generic;
+using TMPro;
+using UnityEngine;
+using UnityEngine.UI;
 
 public class OutlineQuizManager : MonoBehaviour
 {
     public Image stateImage;
     public TMP_Dropdown dropdown;
+
+    public TMP_Text scoreText;
+    public TMP_Text resultText;
+    public CanvasGroup resultGroup;
 
     public List<GeographyFeature> states;
 
@@ -21,6 +26,7 @@ public class OutlineQuizManager : MonoBehaviour
 
         stateImage.preserveAspect = true;
 
+        scoreText.text = "Score: 0";
 
         remainingStates = new List<GeographyFeature>(states);
         PopulateDropdown();
@@ -68,14 +74,20 @@ public class OutlineQuizManager : MonoBehaviour
         if (selected == correctState.featureName)
         {
             score++;
+            scoreText.text = "Score: " + score;
+
+            StartCoroutine(ShowResult("Correct!"));
+
             Debug.Log("Correct!");
         }
         else
         {
+            StartCoroutine(ShowResult("Wrong!"));
+
             Debug.Log("Wrong! Correct answer was: " + correctState.featureName);
         }
 
-        LoadNextQuestion();
+        Invoke("LoadNextQuestion", 1.5f);
     }
 
     void Shuffle(List<string> list)
@@ -86,6 +98,26 @@ public class OutlineQuizManager : MonoBehaviour
             int randomIndex = Random.Range(i, list.Count);
             list[i] = list[randomIndex];
             list[randomIndex] = temp;
+        }
+    }
+
+
+    IEnumerator ShowResult(string message)
+    {
+        resultText.text = message;
+
+        for (float a = 0; a <= 1; a += Time.deltaTime * 2)
+        {
+            resultGroup.alpha = a;
+            yield return null;
+        }
+
+        yield return new WaitForSeconds(1);
+
+        for (float a = 1; a >= 0; a -= Time.deltaTime * 2)
+        {
+            resultGroup.alpha = a;
+            yield return null;
         }
     }
 }
