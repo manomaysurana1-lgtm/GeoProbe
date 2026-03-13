@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b92705b55ada58d4897afade18e5d381, type: 3}
+  m_Name: Indo-Gangetic Plain
+  m_EditorClassIdentifier: 
+  featureName: Indo-Gangetic Plain
+  easyClue: Vast fertile plain across northern India
+  mediumClue: Formed by sediment from Himalayan rivers
+  hardClue: One of the most densely populated agricultural regions in the world
+  picture: {fileID: -3078110122732165631, guid: 4487f46f3184f9a41af25af487fb2b30, type: 3}

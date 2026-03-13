@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b92705b55ada58d4897afade18e5d381, type: 3}
+  m_Name: Snow Leopard
+  m_EditorClassIdentifier: 
+  featureName: Snow Leopard
+  easyClue: Rare big cat found in high mountain regions
+  mediumClue: Lives in the upper Himalayas of northern India
+  hardClue: Adapted to cold, rocky terrain above the tree line
+  picture: {fileID: -6971160333785648202, guid: f9dafde23c2420046b8792995ab11d25, type: 3}
