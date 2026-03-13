@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stateName: Andaman and Nicobar Islands
   capitalCity: "Port Blair\r"
-  capitalImage: {fileID: 0}
+  capitalImage: {fileID: 858337841651917776, guid: 0dd9ea4418724b14fb607677281eb71d, type: 3}

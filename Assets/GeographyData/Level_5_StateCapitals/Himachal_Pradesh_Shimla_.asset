@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Himachal_Pradesh_Shimla_
   m_EditorClassIdentifier: 
   stateName: Himachal Pradesh
-  capitalCity: "Shimla\r"
-  capitalImage: {fileID: 0}
+  capitalCity: "Shimla/Dharamshala\r"
+  capitalImage: {fileID: 1319272924791854425, guid: 35f0dd7364f964a41b799c3c901c1fd1, type: 3}

@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stateName: Punjab
   capitalCity: "Chandigarh\r"
-  capitalImage: {fileID: 0}
+  capitalImage: {fileID: 3166570539505028347, guid: fd5bc7711d5c0cf4a88b5653a9db61d9, type: 3}

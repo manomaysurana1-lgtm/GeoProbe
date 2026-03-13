@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stateName: Karnataka
   capitalCity: "Bengaluru\r"
-  capitalImage: {fileID: 0}
+  capitalImage: {fileID: 7684415255731300787, guid: 3a7385684d4d513439c3e5dc9fe3312e, type: 3}

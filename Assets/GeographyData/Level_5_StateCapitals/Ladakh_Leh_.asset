@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Ladakh_Leh_
   m_EditorClassIdentifier: 
   stateName: Ladakh
-  capitalCity: "Leh\r"
-  capitalImage: {fileID: 0}
+  capitalCity: "Leh/Kargil\r"
+  capitalImage: {fileID: -4790495746803487267, guid: d68ca3fe1f0a496478665179fc301ff7, type: 3}

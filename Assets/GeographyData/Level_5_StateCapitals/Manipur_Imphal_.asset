@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stateName: Manipur
   capitalCity: "Imphal\r"
-  capitalImage: {fileID: 0}
+  capitalImage: {fileID: 8009930093284384000, guid: 50df5e5d560f4124fae6138e661359db, type: 3}

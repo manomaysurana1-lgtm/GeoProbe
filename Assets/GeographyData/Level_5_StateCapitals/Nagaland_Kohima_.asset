@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stateName: Nagaland
   capitalCity: "Kohima\r"
-  capitalImage: {fileID: 0}
+  capitalImage: {fileID: -1168931335666673804, guid: e14b78de68fe46443ae7bcbe67ad45ce, type: 3}

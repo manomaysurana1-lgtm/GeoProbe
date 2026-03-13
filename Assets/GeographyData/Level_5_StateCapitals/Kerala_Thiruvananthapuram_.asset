@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stateName: Kerala
   capitalCity: "Thiruvananthapuram\r"
-  capitalImage: {fileID: 0}
+  capitalImage: {fileID: -3813574147632811610, guid: 5e3a2e5aa91c9bc4b9178b76cbdbec54, type: 3}

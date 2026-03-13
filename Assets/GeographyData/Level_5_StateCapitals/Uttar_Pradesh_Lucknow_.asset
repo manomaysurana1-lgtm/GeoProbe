@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stateName: Uttar Pradesh
   capitalCity: "Lucknow\r"
-  capitalImage: {fileID: 0}
+  capitalImage: {fileID: 5128695528452076021, guid: 9d7f151f58aa31c43885b16a4e8e838a, type: 3}

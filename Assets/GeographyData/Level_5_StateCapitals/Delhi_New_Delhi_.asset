@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stateName: Delhi
   capitalCity: "New Delhi\r"
-  capitalImage: {fileID: 0}
+  capitalImage: {fileID: 8681594981039396618, guid: c5db0d202dd521c49b86a49d56bd64a8, type: 3}

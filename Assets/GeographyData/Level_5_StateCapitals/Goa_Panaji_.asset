@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stateName: Goa
   capitalCity: "Panaji\r"
-  capitalImage: {fileID: 0}
+  capitalImage: {fileID: -3399790158957449587, guid: 880e8fbce09207745bf94a93f6872fdc, type: 3}

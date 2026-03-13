@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stateName: Telangana
   capitalCity: "Hyderabad\r"
-  capitalImage: {fileID: 0}
+  capitalImage: {fileID: 9011383113557108515, guid: 9acd2b1af39558e40af87e52f077499c, type: 3}

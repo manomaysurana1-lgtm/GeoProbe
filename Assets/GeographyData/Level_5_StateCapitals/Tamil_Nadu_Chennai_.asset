@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stateName: Tamil Nadu
   capitalCity: "Chennai\r"
-  capitalImage: {fileID: 0}
+  capitalImage: {fileID: 7161441697752398402, guid: ad852a6122baaed4dba74983a5842041, type: 3}

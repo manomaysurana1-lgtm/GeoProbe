@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stateName: Rajasthan
   capitalCity: "Jaipur\r"
-  capitalImage: {fileID: 0}
+  capitalImage: {fileID: 33755160059732086, guid: 707f6b0eeb237ca42a5221415d1aa6aa, type: 3}

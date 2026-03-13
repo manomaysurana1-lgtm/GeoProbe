@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Maharashtra_Mumbai_
   m_EditorClassIdentifier: 
   stateName: Maharashtra
-  capitalCity: "Mumbai\r"
-  capitalImage: {fileID: 0}
+  capitalCity: "Mumbai/Nagpur\r"
+  capitalImage: {fileID: -4055440952360372964, guid: f51b537bea2d6d44cb4a6dd559b1163b, type: 3}

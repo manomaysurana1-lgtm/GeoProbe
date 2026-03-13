@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Jammu_and_Kashmir_Srinagar_
   m_EditorClassIdentifier: 
   stateName: Jammu and Kashmir
-  capitalCity: "Srinagar\r"
-  capitalImage: {fileID: 0}
+  capitalCity: Srinagar/Jammu
+  capitalImage: {fileID: -2294334674923094595, guid: 4531f89d889b6364894f3881c4d7a331, type: 3}

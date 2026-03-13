@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stateName: Assam
   capitalCity: "Dispur\r"
-  capitalImage: {fileID: 0}
+  capitalImage: {fileID: 943168697547957324, guid: 5553b7b3e54896f46b68a656dc4cf090, type: 3}

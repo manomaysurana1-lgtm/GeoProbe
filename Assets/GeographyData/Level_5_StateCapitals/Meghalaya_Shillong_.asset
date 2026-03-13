@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stateName: Meghalaya
   capitalCity: "Shillong\r"
-  capitalImage: {fileID: 0}
+  capitalImage: {fileID: -4885354735977176456, guid: eab614cd9eda60d43b81240562830609, type: 3}

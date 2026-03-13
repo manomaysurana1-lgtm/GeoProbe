@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stateName: Madhya Pradesh
   capitalCity: "Bhopal\r"
-  capitalImage: {fileID: 0}
+  capitalImage: {fileID: 6585797437636308062, guid: 62b24321b74336646bbb83cfaabbbfe1, type: 3}

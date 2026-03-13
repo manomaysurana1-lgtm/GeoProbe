@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stateName: Arunachal Pradesh
   capitalCity: "Itanagar\r"
-  capitalImage: {fileID: 0}
+  capitalImage: {fileID: -3128885916079494057, guid: e432d7aabb0b2ca41bb70521c6c7ed64, type: 3}

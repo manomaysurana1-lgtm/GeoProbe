@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stateName: Sikkim
   capitalCity: "Gangtok\r"
-  capitalImage: {fileID: 0}
+  capitalImage: {fileID: -827371380232105492, guid: 5e86d052936030241a44c217a17da3b2, type: 3}

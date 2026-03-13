@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stateName: Dadra and Nagar Haveli and Daman and Diu
   capitalCity: "Daman\r"
-  capitalImage: {fileID: 0}
+  capitalImage: {fileID: -4404555730714992846, guid: dff4eb6ec177d8e40b6c373e6ae57591, type: 3}

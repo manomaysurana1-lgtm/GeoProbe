@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stateName: Gujarat
   capitalCity: "Gandhinagar\r"
-  capitalImage: {fileID: 0}
+  capitalImage: {fileID: 5291817155804893309, guid: a9d3b91cdd47b7f418d30d5620ea94dd, type: 3}

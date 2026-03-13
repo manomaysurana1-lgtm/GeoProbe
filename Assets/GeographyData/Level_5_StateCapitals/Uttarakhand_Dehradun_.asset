@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Uttarakhand_Dehradun_
   m_EditorClassIdentifier: 
   stateName: Uttarakhand
-  capitalCity: "Dehradun\r"
-  capitalImage: {fileID: 0}
+  capitalCity: "Dehradun/Gairsain\r"
+  capitalImage: {fileID: -6540931247789075017, guid: 187e95c87d461754987aa8882ce88caf, type: 3}

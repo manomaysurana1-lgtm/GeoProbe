@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stateName: Chhattisgarh
   capitalCity: "Raipur\r"
-  capitalImage: {fileID: 0}
+  capitalImage: {fileID: -3349471486846859328, guid: c760797e08927114696f4c41d2c9c3cf, type: 3}

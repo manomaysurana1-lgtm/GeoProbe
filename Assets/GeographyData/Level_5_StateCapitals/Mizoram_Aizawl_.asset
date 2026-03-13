@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stateName: Mizoram
   capitalCity: "Aizawl\r"
-  capitalImage: {fileID: 0}
+  capitalImage: {fileID: -4741521765430135314, guid: dcae2c6f7011b4c4b953f397ff658790, type: 3}

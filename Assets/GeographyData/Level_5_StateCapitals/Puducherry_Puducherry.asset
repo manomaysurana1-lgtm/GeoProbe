@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stateName: Puducherry
   capitalCity: Puducherry
-  capitalImage: {fileID: 0}
+  capitalImage: {fileID: -6213473926050778662, guid: 2a8cb558e137f3e41b55712b631a8150, type: 3}

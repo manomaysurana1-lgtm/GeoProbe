@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stateName: West Bengal
   capitalCity: "Kolkata\r"
-  capitalImage: {fileID: 0}
+  capitalImage: {fileID: -4188456351095935180, guid: a05ba77463fcc2740ac7dd12e74e6424, type: 3}

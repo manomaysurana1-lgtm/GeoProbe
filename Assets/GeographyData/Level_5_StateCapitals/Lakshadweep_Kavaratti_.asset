@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stateName: Lakshadweep
   capitalCity: "Kavaratti\r"
-  capitalImage: {fileID: 0}
+  capitalImage: {fileID: 6006448287552646427, guid: 48b6d093ed0e1804bbbcffe777d0052d, type: 3}
