@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: "Ajanta\u2013Ellora Caves"
   m_EditorClassIdentifier: 
   featureName: "Ajanta\u2013Ellora Caves"
-  easyClue: Rock-cut cave complexes
-  mediumClue: Located in volcanic plateau region
-  hardClue: Carved into basalt rock
+  easyClue: Famous rock-cut cave temples in Maharashtra
+  mediumClue: Located in the Deccan volcanic plateau
+  hardClue: Carved directly into basalt cliffs formed by ancient lava flows
   picture: {fileID: 8440169357431681927, guid: 98af7251f203ea14d8748288db7252c0, type: 3}

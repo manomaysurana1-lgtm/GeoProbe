@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Gir National Park
   m_EditorClassIdentifier: 
   featureName: Gir National Park
-  easyClue: Located in western India
-  mediumClue: Dry deciduous forest ecosystem
-  hardClue: Protected region with seasonal rivers and low rainfall
+  easyClue: Wildlife sanctuary in Gujarat
+  mediumClue: Only natural habitat of the Asiatic lion
+  hardClue: Located in dry deciduous forests of the Kathiawar Peninsula
   picture: {fileID: 6229752182795963780, guid: 1516c693b64523b4f816f3534a7d5f21, type: 3}

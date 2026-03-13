@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Hampi
   m_EditorClassIdentifier: 
   featureName: Hampi
-  easyClue: Ruins of a major empire
-  mediumClue: Located near a river
-  hardClue: Rocky terrain provided natural defence
+  easyClue: Ruins of the Vijayanagara Empire
+  mediumClue: Located along the Tungabhadra River
+  hardClue: Surrounded by granite boulder hills that formed natural defenses
   picture: {fileID: 2059616945313025554, guid: 26ef8d42edb642e4d862cd93d255d817, type: 3}

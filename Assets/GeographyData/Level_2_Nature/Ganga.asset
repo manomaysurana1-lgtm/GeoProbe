@@ -13,7 +13,10 @@ MonoBehaviour:
   m_Name: Ganga
   m_EditorClassIdentifier: 
   featureName: Ganga
-  easyClue: Flows across the northern plains of India
-  mediumClue: Originates in the central Himalayas and flows east
-  hardClue: Forms a large delta before entering the Bay of Bengal
+  easyClue: Major river flowing across the northern plains of India from the Himalayas
+    to the Bay of Bengal
+  mediumClue: Forms one of the largest river basins in the world across northern
+    India
+  hardClue: Begins as glacial meltwater in Uttarakhand before crossing the Indo-Gangetic
+    alluvial plain
   picture: {fileID: -5428975608492784978, guid: 9b274ddcac1c9684fb3d3da9718e6efe, type: 3}

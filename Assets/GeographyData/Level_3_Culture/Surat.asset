@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: Surat
   m_EditorClassIdentifier: 
   featureName: Surat
-  easyClue: Historic trading city
-  mediumClue: Located near a river mouth
-  hardClue: Connected inland trade to the sea
+  easyClue: Historic trading port in Gujarat
+  mediumClue: Located near the mouth of the Tapi River
+  hardClue: Important port of the Mughal Empire linking inland trade to the Arabian
+    Sea
   picture: {fileID: -1268597465608351359, guid: 9feda6c9edc58b74492f07819bcfc5c1, type: 3}

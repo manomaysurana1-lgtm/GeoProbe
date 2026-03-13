@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Kaziranga National Park
   m_EditorClassIdentifier: 
   featureName: Kaziranga National Park
-  easyClue: Located in Assam
-  mediumClue: Situated on a major river floodplain
-  hardClue: Landscape shaped by annual flooding and sediment deposition
+  easyClue: National park in Assam famous for the one-horned rhinoceros
+  mediumClue: Located on the floodplains of the Brahmaputra River
+  hardClue: Landscape constantly reshaped by annual flooding and sediment deposition
   picture: {fileID: 8824605376289503963, guid: a28c5d7927def694d9290ee0978824fa, type: 3}

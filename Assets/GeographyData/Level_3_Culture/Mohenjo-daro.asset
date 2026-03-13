@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b92705b55ada58d4897afade18e5d381, type: 3}
-  m_Name: Mohenjo-daro Region
+  m_Name: Mohenjo-daro
   m_EditorClassIdentifier: 
-  featureName: Mohenjo-daro Region
-  easyClue: Planned ancient city
-  mediumClue: Built on flat alluvial land
-  hardClue: Dependent on seasonal river flooding
+  featureName: Mohenjo-daro
+  easyClue: Famous planned ancient city
+  mediumClue: Built on the lower Indus River floodplain
+  hardClue: Urban layout designed to manage seasonal river flooding
   picture: {fileID: -4753926858732047029, guid: cdd4388a7f58a9640933eab786a9f66f, type: 3}

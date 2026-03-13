@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Indian Peacock
   m_EditorClassIdentifier: 
   featureName: Indian Peacock
-  easyClue: Widely found across much of India
-  mediumClue: Prefers open forests and agricultural edges
-  hardClue: Thrives in regions with seasonal rainfall rather than dense jungle
+  easyClue: National bird found across most of the Indian subcontinent
+  mediumClue: Common in open forests, farmland edges, and village landscapes
+  hardClue: Most abundant in semi-arid plains and monsoon-influenced regions
   picture: {fileID: 2253741156578752147, guid: 15e732f34defa35498fa4b1429820e53, type: 3}

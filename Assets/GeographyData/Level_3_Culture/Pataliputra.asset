@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Pataliputra
   m_EditorClassIdentifier: 
   featureName: Pataliputra
-  easyClue: Important ancient capital
-  mediumClue: Located at the confluence of rivers
-  hardClue: Grew due to fertile plains and transport access
+  easyClue: Ancient capital of Mauryan and Gupta empires
+  mediumClue: Located near the confluence of the Ganga and Son rivers
+  hardClue: Strategic location on the fertile Indo-Gangetic plains trade routes
   picture: {fileID: 8562117820939285913, guid: f05bf05eafa6b2c458df5aecaa27cf7d, type: 3}

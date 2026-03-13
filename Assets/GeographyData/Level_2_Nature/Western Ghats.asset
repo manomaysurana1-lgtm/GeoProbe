@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Western Ghats
   m_EditorClassIdentifier: 
   featureName: Western Ghats
-  easyClue: Mountain range along the west coast
-  mediumClue: Receives heavy monsoon rainfall
-  hardClue: Major watershed for peninsular rivers
+  easyClue: Mountain range running along the western coast of India
+  mediumClue: Causes heavy rainfall on the windward coastal side during monsoon
+  hardClue: Forms a major watershed dividing west-flowing and east-flowing rivers
   picture: {fileID: -5549751184521967484, guid: 8d1fd11a373e3c147b6cec99aa90d7b3, type: 3}

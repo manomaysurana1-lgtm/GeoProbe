@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Rameswaram
   m_EditorClassIdentifier: 
   featureName: Rameswaram
-  easyClue: Southern coastal religious site
-  mediumClue: Connected by a narrow land bridge
-  hardClue: Located between mainland and island geography
+  easyClue: Important Hindu pilgrimage island town in Tamil Nadu
+  mediumClue: Located on Pamban Island near Sri Lanka
+  hardClue: Connected to mainland India by the Pamban Bridge across shallow seas
   picture: {fileID: -609114253260640041, guid: e600ee3014febe3438a1e078e47b2d55, type: 3}

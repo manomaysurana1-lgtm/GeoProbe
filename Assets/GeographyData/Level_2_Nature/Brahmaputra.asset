@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: Brahmaputra
   m_EditorClassIdentifier: 
   featureName: Brahmaputra
-  easyClue: Major river of northeast India
-  mediumClue: Enters India from the Himalayas and flows through Assam
-  hardClue: Carries extremely high sediment and causes seasonal flooding
+  easyClue: Major river flowing through Assam in northeast India
+  mediumClue: Enters India from Tibet through Arunachal Pradesh
+  hardClue: One of the widest braided rivers in the world, creating large sandbars
+    in Assam
   picture: {fileID: 5580820144338136254, guid: e6a2bc2012319784c9c0802c0005a52b, type: 3}

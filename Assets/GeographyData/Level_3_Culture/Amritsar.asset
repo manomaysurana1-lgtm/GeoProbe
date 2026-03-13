@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Amritsar
   m_EditorClassIdentifier: 
   featureName: Amritsar
-  easyClue: Major religious centre in north India
-  mediumClue: Located in fertile plains
-  hardClue: Grew due to agriculture and trade routes
+  easyClue: City known for the Golden Temple
+  mediumClue: Located in the fertile Punjab plains
+  hardClue: Developed as a major trade centre between India and Central Asia routes
   picture: {fileID: 3013325042014675255, guid: d7081ddc19523ad4cb652878b50cd973, type: 3}

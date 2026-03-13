@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Kochi
   m_EditorClassIdentifier: 
   featureName: Kochi
-  easyClue: Coastal city in Kerala
-  mediumClue: Natural harbour
-  hardClue: Benefited from monsoon wind patterns
+  easyClue: Major port city in Kerala
+  mediumClue: Located on the Malabar Coast of southwest India
+  hardClue: Historic harbour used by Arab, Chinese, and European traders
   picture: {fileID: -5147352864508795580, guid: 674cafbf3d90e8c47b8f70c47d48016e, type: 3}

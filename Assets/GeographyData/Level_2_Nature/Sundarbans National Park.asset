@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Sundarbans National Park
   m_EditorClassIdentifier: 
   featureName: Sundarbans National Park
-  easyClue: Coastal mangrove forest
-  mediumClue: Located in a large river delta
-  hardClue: Influenced by both freshwater and tidal systems
+  easyClue: Large mangrove forest delta in eastern India
+  mediumClue: Located where the Ganga and Brahmaputra rivers meet the Bay of Bengal
+  hardClue: "The world\u2019s largest tidal mangrove ecosystem"
   picture: {fileID: 3458990369415348929, guid: b17df2a70afa0ba4a8522f0213d5066c, type: 3}

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Thar Desert
   m_EditorClassIdentifier: 
   featureName: Thar Desert
-  easyClue: Desert region in northwest India
-  mediumClue: Low rainfall and sparse vegetation
-  hardClue: Influenced by the rain-shadow effect
+  easyClue: Desert region in northwestern India
+  mediumClue: Located mainly in Rajasthan near the Pakistan border
+  hardClue: Formed partly due to monsoon rain-shadow and continental dry winds
   picture: {fileID: 1687873739548918924, guid: 446f4d83722fef3488e3492a95688f88, type: 3}

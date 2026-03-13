@@ -75,16 +75,11 @@ public class OutlineQuizManager : MonoBehaviour
         {
             score++;
             scoreText.text = "Score: " + score;
-
             StartCoroutine(ShowResult("Correct!"));
-
-            Debug.Log("Correct!");
         }
         else
         {
-            StartCoroutine(ShowResult("Wrong!"));
-
-            Debug.Log("Wrong! Correct answer was: " + correctState.featureName);
+            StartCoroutine(ShowResult("Wrong! Correct answer: " + correctState.featureName));
         }
 
         Invoke("LoadNextQuestion", 1.5f);

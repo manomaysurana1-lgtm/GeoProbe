@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Chennai
   m_EditorClassIdentifier: 
   featureName: Chennai
-  easyClue: Major city on the east coast
-  mediumClue: Coastal plain location
-  hardClue: Developed despite limited natural harbours
+  easyClue: Major city on the southeast coast of India
+  mediumClue: Located on the Coromandel Coast along the Bay of Bengal
+  hardClue: Developed as a British colonial port despite lacking a natural harbour
   picture: {fileID: 2894563745712897793, guid: 1f3628a1a2adc104ba0f60933d08c890, type: 3}

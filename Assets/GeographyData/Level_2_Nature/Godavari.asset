@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   featureName: Godavari
   easyClue: Longest river of peninsular India
-  mediumClue: Flows east from central India into the Bay of Bengal
-  hardClue: Drains a large plateau region before forming a delta
+  mediumClue: Flows east across the Deccan Plateau into the Bay of Bengal
+  hardClue: Originates in the Western Ghats near Nashik before crossing central India
   picture: {fileID: 3808965974940030448, guid: 53aeefa71b8116b4c938c6c2dd0538d3, type: 3}

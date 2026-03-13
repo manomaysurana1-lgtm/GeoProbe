@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: Royal Bengal Tiger
   m_EditorClassIdentifier: 
   featureName: Royal Bengal Tiger
-  easyClue: 
-  mediumClue: 
-  hardClue: 
+  easyClue: Found in forests of eastern and central India
+  mediumClue: Largest population occurs in the Sundarbans mangrove delta and central
+    Indian reserves
+  hardClue: Requires large forest territories with access to rivers and dense vegetation
   picture: {fileID: 1442954608315854474, guid: c8f435f0c537ed849b7cae44df196fba, type: 3}

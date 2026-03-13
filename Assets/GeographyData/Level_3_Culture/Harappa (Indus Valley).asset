@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b92705b55ada58d4897afade18e5d381, type: 3}
-  m_Name: Indus Valley Region
+  m_Name: Harappa (Indus Valley)
   m_EditorClassIdentifier: 
-  featureName: Indus Valley Region
-  easyClue: One of the earliest urban civilisations
-  mediumClue: Located near a major river system
-  hardClue: Declined as river patterns changed
+  featureName: Harappa (Indus Valley)
+  easyClue: Major city of the Indus Valley Civilization
+  mediumClue: Located near the Indus River floodplain
+  hardClue: Part of a Bronze Age urban network built on fertile river plains
   picture: {fileID: 4852782536521988194, guid: 9105ceca91d58ce468bf9529839c6e08, type: 3}

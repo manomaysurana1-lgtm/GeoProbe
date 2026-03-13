@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Konark Sun Temple
   m_EditorClassIdentifier: 
   featureName: Konark Sun Temple
-  easyClue: Temple on the eastern coast
-  mediumClue: Linked to maritime culture
-  hardClue: Built using locally available stone
+  easyClue: Temple on the coast of Odisha
+  mediumClue: Built near the Bay of Bengal shoreline
+  hardClue: Designed as a stone chariot symbolising the Sun God
   picture: {fileID: -8847906759919250682, guid: 71326b534d5053743aabbcce0a8231ce, type: 3}
