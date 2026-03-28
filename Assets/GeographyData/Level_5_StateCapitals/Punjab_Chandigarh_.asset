@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc8a5026347307949b91caf4bd493ee9, type: 3}
   m_Name: Punjab_Chandigarh_
   m_EditorClassIdentifier: 
-  stateName: Punjab
+  stateName: Punjab/Haryana/Chandigarh
   capitalCity: "Chandigarh\r"
   capitalImage: {fileID: 3166570539505028347, guid: fd5bc7711d5c0cf4a88b5653a9db61d9, type: 3}

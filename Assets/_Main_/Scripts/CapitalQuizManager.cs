@@ -25,6 +25,9 @@ public class CapitalQuizManager : MonoBehaviour
 
     void Start()
     {
+
+        stateImage.preserveAspect = true;
+
         scoreText.text = "Score: 0";
         if (resultGroup != null) resultGroup.alpha = 0;
 
