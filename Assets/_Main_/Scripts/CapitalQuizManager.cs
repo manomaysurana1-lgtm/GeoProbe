@@ -13,6 +13,8 @@ public class CapitalQuizManager : MonoBehaviour
     public Image stateImage;
     public TMP_Text resultText;
     public CanvasGroup resultGroup;
+    public float latitude;
+    public float longitude;
 
     [Header("Settings")]
     public List<StateCapital> states;

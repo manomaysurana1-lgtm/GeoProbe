@@ -17,4 +17,7 @@ public class GeographyFeature : ScriptableObject
 
     [Header("Image")]
     public Sprite picture;
+
+    public float latitude;
+    public float longitude;
 }

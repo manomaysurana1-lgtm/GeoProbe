@@ -1,0 +1,60 @@
+locationName,type,latitude,longitude
+Mumbai,City,19.0760,72.8777
+Delhi,City,28.6139,77.2090
+Bengaluru,City,12.9716,77.5946
+Chennai,City,13.0827,80.2707
+Kolkata,City,22.5726,88.3639
+Hyderabad,City,17.3850,78.4867
+Ahmedabad,City,23.0225,72.5714
+Pune,City,18.5204,73.8567
+Jaipur,City,26.9124,75.7873
+Lucknow,City,26.8467,80.9462
+Chandigarh UT,City,30.7333,76.7794
+Patna,City,25.5941,85.1376
+Bhopal,City,23.2599,77.4126
+Thiruvananthapuram,City,8.5241,76.9366
+Shimla,City,31.1048,77.1734
+Dehradun,City,30.3165,78.0322
+Gangtok,City,27.3389,88.6065
+Shillong,City,25.5788,91.8933
+Aizawl,City,23.7271,92.7176
+Kohima,City,25.6751,94.1086
+Imphal,City,24.8170,93.9368
+Agartala,City,23.8315,91.2868
+Panaji,City,15.4909,73.8278
+Dispur,City,26.1433,91.7898
+Amaravati,City,16.5062,80.6480
+Raipur,City,21.2514,81.6296
+Ranchi,City,23.3441,85.3096
+Bhubaneswar,City,20.2961,85.8245
+Srinagar,City,34.0837,74.7973
+Leh,City,34.1526,77.5770
+Port Blair,City,11.6234,92.7265
+Kavaratti,City,10.5667,72.6417
+Puducherry,City,11.9416,79.8083
+
+Taj Mahal,Landmark,27.1751,78.0421
+Qutub Minar,Landmark,28.5244,77.1855
+India Gate,Landmark,28.6129,77.2295
+Gateway of India,Landmark,18.9218,72.8347
+Hawa Mahal,Landmark,26.9239,75.8267
+Charminar,Landmark,17.3616,78.4747
+Mysore Palace,Landmark,12.3051,76.6551
+Golden Temple,Landmark,31.6200,74.8765
+Meenakshi Temple,Landmark,9.9195,78.1193
+Sun Temple Konark,Landmark,19.8876,86.0945
+
+Ganga River,Natural,25.3176,83.0126
+Yamuna River,Natural,28.5355,77.3910
+Brahmaputra River,Natural,26.1445,91.7362
+Godavari River,Natural,19.9975,73.7898
+Krishna River,Natural,16.9891,82.2475
+Narmada River,Natural,22.6747,77.9210
+Tapti River,Natural,21.1702,72.8311
+
+Himalayas,Natural,30.0000,79.0000
+Western Ghats,Natural,10.8505,76.2711
+Thar Desert,Natural,26.0000,71.0000
+Sundarbans,Natural,21.9497,89.1833
+Chilika Lake,Natural,19.8450,85.4788
+Dal Lake,Natural,34.0910,74.8370

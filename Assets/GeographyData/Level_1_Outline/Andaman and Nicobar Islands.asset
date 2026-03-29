@@ -17,3 +17,5 @@ MonoBehaviour:
   mediumClue: 
   hardClue: 
   picture: {fileID: 2284194259143637823, guid: 9ff768089e226f04f8f5214f4be337d2, type: 3}
+  latitude: 0
+  longitude: 0

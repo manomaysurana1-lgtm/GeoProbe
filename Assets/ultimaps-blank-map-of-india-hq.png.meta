@@ -1,0 +1,585 @@
+fileFormatVersion: 2
+guid: 9ba66ab160e3b594689c9b64e88b73c8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6494716629210220600
+    second: ultimaps-blank-map-of-india-hq_0
+  - first:
+      213: 7308854170072299772
+    second: ultimaps-blank-map-of-india-hq_1
+  - first:
+      213: 1152962715171049137
+    second: ultimaps-blank-map-of-india-hq_2
+  - first:
+      213: 1991957303372888533
+    second: ultimaps-blank-map-of-india-hq_3
+  - first:
+      213: 1232585926833974876
+    second: ultimaps-blank-map-of-india-hq_4
+  - first:
+      213: 6322738119374315389
+    second: ultimaps-blank-map-of-india-hq_5
+  - first:
+      213: 919023759604421641
+    second: ultimaps-blank-map-of-india-hq_6
+  - first:
+      213: -3247629352722741926
+    second: ultimaps-blank-map-of-india-hq_7
+  - first:
+      213: 7707720671749425396
+    second: ultimaps-blank-map-of-india-hq_8
+  - first:
+      213: 5486685005098447372
+    second: ultimaps-blank-map-of-india-hq_9
+  - first:
+      213: 5070765865013095556
+    second: ultimaps-blank-map-of-india-hq_10
+  - first:
+      213: 1940333186306427389
+    second: ultimaps-blank-map-of-india-hq_11
+  - first:
+      213: 1065382755065410414
+    second: ultimaps-blank-map-of-india-hq_12
+  - first:
+      213: -7464548148490929054
+    second: ultimaps-blank-map-of-india-hq_13
+  - first:
+      213: 894733162871412346
+    second: ultimaps-blank-map-of-india-hq_14
+  - first:
+      213: 1857232522369533001
+    second: ultimaps-blank-map-of-india-hq_15
+  - first:
+      213: 3875962419823711153
+    second: ultimaps-blank-map-of-india-hq_16
+  - first:
+      213: 8665649395369374592
+    second: ultimaps-blank-map-of-india-hq_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ultimaps-blank-map-of-india-hq_0
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 169
+        width: 3130
+        height: 3404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 838c5e02d5ed12a50800000000000000
+      internalID: 6494716629210220600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ultimaps-blank-map-of-india-hq_1
+      rect:
+        serializedVersion: 2
+        x: 2923
+        y: 149
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf8ba4ac4244e6560800000000000000
+      internalID: 7308854170072299772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ultimaps-blank-map-of-india-hq_2
+      rect:
+        serializedVersion: 2
+        x: 2938
+        y: 164
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1be4a051b75200010800000000000000
+      internalID: 1152962715171049137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ultimaps-blank-map-of-india-hq_3
+      rect:
+        serializedVersion: 2
+        x: 2956
+        y: 80
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d939431d9ad4ab10800000000000000
+      internalID: 1991957303372888533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ultimaps-blank-map-of-india-hq_4
+      rect:
+        serializedVersion: 2
+        x: 3236
+        y: 59
+        width: 8
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5ea514be560b1110800000000000000
+      internalID: 1232585926833974876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ultimaps-blank-map-of-india-hq_5
+      rect:
+        serializedVersion: 2
+        x: 3245
+        y: 58
+        width: 17
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7f902df1d0eeb750800000000000000
+      internalID: 6322738119374315389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ultimaps-blank-map-of-india-hq_6
+      rect:
+        serializedVersion: 2
+        x: 3263
+        y: 92
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9049d5b7d3701cc00800000000000000
+      internalID: 919023759604421641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ultimaps-blank-map-of-india-hq_7
+      rect:
+        serializedVersion: 2
+        x: 2960
+        y: 27
+        width: 37
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5544d47f4a1ee2d0800000000000000
+      internalID: -3247629352722741926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ultimaps-blank-map-of-india-hq_8
+      rect:
+        serializedVersion: 2
+        x: 3206
+        y: 58
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f84f8b1d1357fa60800000000000000
+      internalID: 7707720671749425396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ultimaps-blank-map-of-india-hq_9
+      rect:
+        serializedVersion: 2
+        x: 3263
+        y: 59
+        width: 8
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c02fa5341fe942c40800000000000000
+      internalID: 5486685005098447372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ultimaps-blank-map-of-india-hq_10
+      rect:
+        serializedVersion: 2
+        x: 3275
+        y: 59
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48c284b20bafe5640800000000000000
+      internalID: 5070765865013095556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ultimaps-blank-map-of-india-hq_11
+      rect:
+        serializedVersion: 2
+        x: 3318
+        y: 58
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df942bba0c27dea10800000000000000
+      internalID: 1940333186306427389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ultimaps-blank-map-of-india-hq_12
+      rect:
+        serializedVersion: 2
+        x: 3350
+        y: 48
+        width: 28
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e63308998fff8ce00800000000000000
+      internalID: 1065382755065410414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ultimaps-blank-map-of-india-hq_13
+      rect:
+        serializedVersion: 2
+        x: 3378
+        y: 58
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26cf5600209986890800000000000000
+      internalID: -7464548148490929054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ultimaps-blank-map-of-india-hq_14
+      rect:
+        serializedVersion: 2
+        x: 3408
+        y: 59
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7656b5321bba6c00800000000000000
+      internalID: 894733162871412346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ultimaps-blank-map-of-india-hq_15
+      rect:
+        serializedVersion: 2
+        x: 3420
+        y: 58
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9448329932736c910800000000000000
+      internalID: 1857232522369533001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ultimaps-blank-map-of-india-hq_16
+      rect:
+        serializedVersion: 2
+        x: 3447
+        y: 58
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b31b5cf84f2ac530800000000000000
+      internalID: 3875962419823711153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ultimaps-blank-map-of-india-hq_17
+      rect:
+        serializedVersion: 2
+        x: 3479
+        y: 59
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 083f1176632924870800000000000000
+      internalID: 8665649395369374592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ultimaps-blank-map-of-india-hq_0: 6494716629210220600
+      ultimaps-blank-map-of-india-hq_1: 7308854170072299772
+      ultimaps-blank-map-of-india-hq_10: 5070765865013095556
+      ultimaps-blank-map-of-india-hq_11: 1940333186306427389
+      ultimaps-blank-map-of-india-hq_12: 1065382755065410414
+      ultimaps-blank-map-of-india-hq_13: -7464548148490929054
+      ultimaps-blank-map-of-india-hq_14: 894733162871412346
+      ultimaps-blank-map-of-india-hq_15: 1857232522369533001
+      ultimaps-blank-map-of-india-hq_16: 3875962419823711153
+      ultimaps-blank-map-of-india-hq_17: 8665649395369374592
+      ultimaps-blank-map-of-india-hq_2: 1152962715171049137
+      ultimaps-blank-map-of-india-hq_3: 1991957303372888533
+      ultimaps-blank-map-of-india-hq_4: 1232585926833974876
+      ultimaps-blank-map-of-india-hq_5: 6322738119374315389
+      ultimaps-blank-map-of-india-hq_6: 919023759604421641
+      ultimaps-blank-map-of-india-hq_7: -3247629352722741926
+      ultimaps-blank-map-of-india-hq_8: 7707720671749425396
+      ultimaps-blank-map-of-india-hq_9: 5486685005098447372
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

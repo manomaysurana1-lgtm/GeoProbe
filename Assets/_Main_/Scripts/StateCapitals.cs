@@ -6,4 +6,6 @@ public class StateCapital : ScriptableObject
     public string stateName;
     public string capitalCity;
     public Sprite capitalImage;
+    public float latitude;
+    public float longitude;
 }

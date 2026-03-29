@@ -22,6 +22,8 @@ public class FeatureQuizManager : MonoBehaviour
     public TMP_Text resultText;
     public TMP_Text hintText;
     public CanvasGroup resultGroup;
+    public float latitude;
+    public float longitude;
     public GameObject startPanel; // Panel to select difficulty before starting
 
     [Header("Database")]
