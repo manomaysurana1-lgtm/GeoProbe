@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using System.Collections.Generic;
@@ -9,7 +9,6 @@ public class MapQuizManager : MonoBehaviour
     public Image mapImage;
     public RectTransform playerMarker;
     public RectTransform correctMarker;
-
     public TMP_Text questionText;
     public TMP_Text scoreText;
     public TMP_Text resultText;
@@ -18,10 +17,31 @@ public class MapQuizManager : MonoBehaviour
     public List<MapLocation> locations;
 
     private MapLocation currentLocation;
+    private List<MapLocation> remainingLocations;
     private int score = 0;
+
+    // Clean India bounds (tuned)
+    const float MIN_LAT = 8.0f;
+    const float MAX_LAT = 34.5f;
+    const float MIN_LON = 72.0f;
+    const float MAX_LON = 91.5f;
 
     void Start()
     {
+        // Prevent repeats
+        remainingLocations = new List<MapLocation>(locations);
+
+        // Auto-fix UI setup
+        mapImage.preserveAspect = true;
+
+        playerMarker.SetParent(mapImage.rectTransform);
+        correctMarker.SetParent(mapImage.rectTransform);
+
+        playerMarker.anchorMin = playerMarker.anchorMax = new Vector2(0.5f, 0.5f);
+        correctMarker.anchorMin = correctMarker.anchorMax = new Vector2(0.5f, 0.5f);
+
+        playerMarker.pivot = correctMarker.pivot = new Vector2(0.5f, 0.5f);
+
         playerMarker.gameObject.SetActive(false);
         correctMarker.gameObject.SetActive(false);
 
@@ -32,13 +52,21 @@ public class MapQuizManager : MonoBehaviour
 
     void LoadNext()
     {
-        playerMarker.gameObject.SetActive(false);
-        correctMarker.gameObject.SetActive(false);
+        if (remainingLocations.Count == 0)
+        {
+            questionText.text = "Quiz complete! Final score: " + score;
+            return;
+        }
 
-        currentLocation = locations[Random.Range(0, locations.Count)];
+        int index = Random.Range(0, remainingLocations.Count);
+        currentLocation = remainingLocations[index];
+        remainingLocations.RemoveAt(index);
 
         questionText.text = "Locate this " + currentLocation.type + ":\n" + currentLocation.locationName;
         resultText.text = "";
+
+        playerMarker.gameObject.SetActive(false);
+        correctMarker.gameObject.SetActive(false);
     }
 
     public void OnMapClick()
@@ -48,50 +76,56 @@ public class MapQuizManager : MonoBehaviour
         RectTransformUtility.ScreenPointToLocalPointInRectangle(
             mapImage.rectTransform,
             Input.mousePosition,
-            null,
+            null, // IMPORTANT: Overlay canvas fix
             out localPoint
         );
 
+        // Show player guess
         playerMarker.gameObject.SetActive(true);
         playerMarker.anchoredPosition = localPoint;
 
-        float xPercent = (localPoint.x + mapImage.rectTransform.rect.width / 2) / mapImage.rectTransform.rect.width;
-        float yPercent = (localPoint.y + mapImage.rectTransform.rect.height / 2) / mapImage.rectTransform.rect.height;
+        Rect rect = mapImage.rectTransform.rect;
 
-        float guessedLat = Mathf.Lerp(34.5f, 9.0f, yPercent);
-        float guessedLon = Mathf.Lerp(70.0f, 94.5f, xPercent);
+        float xPercent = (localPoint.x - rect.xMin) / rect.width;
+        float yPercent = (localPoint.y - rect.yMin) / rect.height;
+
+        // Convert to lat/lon
+        float guessedLon = Mathf.Lerp(MIN_LON, MAX_LON, xPercent);
+        float guessedLat = Mathf.Lerp(MIN_LAT, MAX_LAT, yPercent);
 
         float correctLat = currentLocation.latitude;
         float correctLon = currentLocation.longitude;
 
-        float distance = CalculateDistance(guessedLat, guessedLon, correctLat, correctLon);
+        float distance = HaversineKm(guessedLat, guessedLon, correctLat, correctLon);
 
         int points = Mathf.Max(0, 1000 - (int)distance);
         score += points;
 
         scoreText.text = "Score: " + score;
 
-        Vector2 correctPos = LatLonToMapPosition(correctLat, correctLon);
+        // Show correct location
         correctMarker.gameObject.SetActive(true);
-        correctMarker.anchoredPosition = correctPos;
+        correctMarker.anchoredPosition = LatLonToMapPos(correctLat, correctLon);
 
-        resultText.text = "You were " + Mathf.RoundToInt(distance) + " km away";
+        resultText.text = Mathf.RoundToInt(distance) + " km away! (+" + points + " pts)";
 
-        Invoke("LoadNext", 2f);
+        Invoke("LoadNext", 2.5f);
     }
 
-    Vector2 LatLonToMapPosition(float lat, float lon)
+    Vector2 LatLonToMapPos(float lat, float lon)
     {
-        float xPercent = Mathf.InverseLerp(68f, 97f, lon);
-        float yPercent = Mathf.InverseLerp(37f, 8f, lat);
+        Rect rect = mapImage.rectTransform.rect;
 
-        float x = (xPercent * mapImage.rectTransform.rect.width) - mapImage.rectTransform.rect.width / 2;
-        float y = (yPercent * mapImage.rectTransform.rect.height) - mapImage.rectTransform.rect.height / 2;
+        float xPercent = Mathf.InverseLerp(MIN_LON, MAX_LON, lon);
+        float yPercent = Mathf.InverseLerp(MIN_LAT, MAX_LAT, lat);
+
+        float x = rect.xMin + xPercent * rect.width;
+        float y = rect.yMin + yPercent * rect.height;
 
         return new Vector2(x, y);
     }
 
-    float CalculateDistance(float lat1, float lon1, float lat2, float lon2)
+    float HaversineKm(float lat1, float lon1, float lat2, float lon2)
     {
         float R = 6371f;
 
