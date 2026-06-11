@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Tapti_River
   m_EditorClassIdentifier: 
   locationName: Tapti River
-  type: Natural
+  type: Natural feature
   latitude: 21.1702
   longitude: 72.8311

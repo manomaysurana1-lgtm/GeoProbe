@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Narmada_River
   m_EditorClassIdentifier: 
   locationName: Narmada River
-  type: Natural
+  type: Natural feature
   latitude: 22.6747
   longitude: 77.921

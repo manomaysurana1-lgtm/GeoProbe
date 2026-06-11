@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Yamuna_River
   m_EditorClassIdentifier: 
   locationName: Yamuna River
-  type: Natural
+  type: Natural feature
   latitude: 28.5355
   longitude: 77.391

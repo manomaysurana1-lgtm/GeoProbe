@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Krishna_River
   m_EditorClassIdentifier: 
   locationName: Krishna River
-  type: Natural
+  type: Natural feature
   latitude: 16.9891
   longitude: 82.2475

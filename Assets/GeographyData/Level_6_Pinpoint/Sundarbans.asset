@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Sundarbans
   m_EditorClassIdentifier: 
   locationName: Sundarbans
-  type: Natural
+  type: Natural feature
   latitude: 21.9497
   longitude: 89.1833

@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Godavari_River
   m_EditorClassIdentifier: 
   locationName: Godavari River
-  type: Natural
+  type: Natural feature
   latitude: 19.9975
   longitude: 73.7898

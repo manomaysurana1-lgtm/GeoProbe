@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Brahmaputra_River
   m_EditorClassIdentifier: 
   locationName: Brahmaputra River
-  type: Natural
+  type: Natural feature
   latitude: 26.1445
   longitude: 91.7362

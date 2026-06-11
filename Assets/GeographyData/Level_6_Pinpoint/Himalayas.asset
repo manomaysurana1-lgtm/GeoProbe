@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Himalayas
   m_EditorClassIdentifier: 
   locationName: Himalayas
-  type: Natural
+  type: Natural feature
   latitude: 30
   longitude: 79

@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Western_Ghats
   m_EditorClassIdentifier: 
   locationName: Western Ghats
-  type: Natural
+  type: Natural feature
   latitude: 10.8505
   longitude: 76.2711

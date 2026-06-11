@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Ganga_River
   m_EditorClassIdentifier: 
   locationName: Ganga River
-  type: Natural
+  type: Natural feature
   latitude: 25.3176
   longitude: 83.0126

@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Thar_Desert
   m_EditorClassIdentifier: 
   locationName: Thar Desert
-  type: Natural
+  type: Natural feature
   latitude: 26
   longitude: 71
