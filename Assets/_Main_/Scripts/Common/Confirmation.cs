@@ -22,12 +22,14 @@ public class Confirmation : MonoBehaviour
 
     public void Show()
     {
+        Persisting.Instance.PlaySFX(SFX.ButtonClick);
         cg.blocksRaycasts = true;
         cg.DOFade(1f, duration);
     }
 
     public void Hide()
     {
+        Persisting.Instance.PlaySFX(SFX.ButtonClick);
         hideCallback += OnHideAnimationDone;
         cg.DOFade(0f, duration).OnComplete(() =>
         {

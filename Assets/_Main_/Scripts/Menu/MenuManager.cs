@@ -1,44 +1,51 @@
 using DG.Tweening;
+using NUnit.Framework;
+using System;
+using System.Collections;
+using System.Collections.Generic;
 using TMPro;
 using UnityEditor;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class MenuManager : MonoBehaviour
 {
     [Header("Data")]
-    public string levelSelectScenename;
+    [SerializeField] string loadScene;
 
-    [Header("References")]
-    public CanvasGroup settingsCG;
+    [Space(20), Header("AnimationReferences")]
+    [SerializeField] RectTransform titleRect;
+    [SerializeField] RectTransform subtitleRect;
+    [SerializeField] List<CanvasGroup> buttonCgs;
+
 
     private void Start()
     {
+        StartCoroutine(AnimateUI());
+    }
+
+    private IEnumerator AnimateUI()
+    {
+        yield return DoTweenAnimations.MoveFromUp(titleRect, 1000, 1f);
+        yield return DoTweenAnimations.MoveFromUp(subtitleRect, 1000, 0.5f);
+        yield return DoTweenAnimations.FadeInOneByOne(buttonCgs, 0.5f, 0.2f);
     }
 
     public void StartGame()
     {
-
+        Persisting.Instance.PlaySFX(SFX.ButtonClick);
+        Persisting.Instance.LoadScene(loadScene);
     }
 
     public void ShowSettings()
     {
-        settingsCG.blocksRaycasts = true;
-        settingsCG.DOFade(1f, 0.5f);
+        Persisting.Instance.PlaySFX(SFX.ButtonClick);
+        Persisting.Instance.ShowSettings();
     }
-
-    public void HideSettings()
-    {
-        settingsCG.DOFade(0f, 0.5f).OnComplete(() =>
-        {
-            settingsCG.blocksRaycasts = false;
-        });
-    }
-
 
     public void Exit()
     {
+        Persisting.Instance.PlaySFX(SFX.ButtonClick);
 #if UNITY_EDITOR
         EditorApplication.isPlaying = false;
 #else
