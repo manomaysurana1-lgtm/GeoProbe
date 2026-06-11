@@ -355,8 +355,13 @@ public class FeatureQuizManager : MonoBehaviour
 
         if (isCorrect)
         {
+            Persisting.Instance.PlaySFX(SFX.Correct);
             score++;
             UpdateScoreText();
+        }
+        else
+        {
+            Persisting.Instance.PlaySFX(SFX.Incorrect);
         }
 
         AnimateAnswerFeedback(selectedOption, isCorrect);
@@ -543,6 +548,7 @@ public class FeatureQuizManager : MonoBehaviour
 
         if (gameEndPanel != null)
         {
+            Persisting.Instance.PlaySFX(SFX.GameEnd);
             gameEndPanel.Show(accuracy);
         }
         else

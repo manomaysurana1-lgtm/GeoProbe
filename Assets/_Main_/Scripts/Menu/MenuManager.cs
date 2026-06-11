@@ -33,16 +33,19 @@ public class MenuManager : MonoBehaviour
 
     public void StartGame()
     {
+        Persisting.Instance.PlaySFX(SFX.ButtonClick);
         Persisting.Instance.LoadScene(loadScene);
     }
 
     public void ShowSettings()
     {
+        Persisting.Instance.PlaySFX(SFX.ButtonClick);
         Persisting.Instance.ShowSettings();
     }
 
     public void Exit()
     {
+        Persisting.Instance.PlaySFX(SFX.ButtonClick);
 #if UNITY_EDITOR
         EditorApplication.isPlaying = false;
 #else

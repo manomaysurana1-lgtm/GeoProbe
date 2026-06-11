@@ -28,6 +28,7 @@ public class Pause : MonoBehaviour
 
     public void Hide()
     {
+        Persisting.Instance.PlaySFX(SFX.ButtonClick);
         panel.blocksRaycasts = false;
         StartCoroutine(HideCoroutine());
     }

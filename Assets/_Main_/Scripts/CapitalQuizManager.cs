@@ -286,11 +286,16 @@ public class CapitalQuizManager : MonoBehaviour
 
         if (isCorrect)
         {
+            Persisting.Instance.PlaySFX(SFX.Correct);
             score++;
             UpdateScoreText();
         }
+        else
+        {
+            Persisting.Instance.PlaySFX(SFX.Incorrect);
+        }
 
-        AnimateAnswerFeedback(selectedOption, isCorrect);
+            AnimateAnswerFeedback(selectedOption, isCorrect);
 
         string message = isCorrect
             ? "Correct!"
@@ -472,6 +477,7 @@ public class CapitalQuizManager : MonoBehaviour
 
         if (gameEndPanel != null)
         {
+            Persisting.Instance.PlaySFX(SFX.GameEnd);
             gameEndPanel.Show(accuracy);
         }
         else

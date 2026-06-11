@@ -56,6 +56,7 @@ public class Settings : MonoBehaviour
 
     public void Hide()
     {
+        Persisting.Instance.PlaySFX(SFX.ButtonClick);
         settingsCG.DOFade(0f, 0.5f).OnComplete(() =>
         {
             settingsCG.blocksRaycasts = false;

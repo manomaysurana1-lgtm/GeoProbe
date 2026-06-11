@@ -304,7 +304,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 0}
+  m_Resource: {fileID: 8300000, guid: 98326af9296c8f646a069738a1185eae, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.35
   m_Pitch: 1
@@ -1590,6 +1590,10 @@ MonoBehaviour:
   settings: {fileID: 665453726}
   pausePanel: {fileID: 1032061443}
   pauseBtn: {fileID: 432670127}
+  buttonClick: {fileID: 8300000, guid: f34c89c46053a294f8e7615380839548, type: 3}
+  correctClip: {fileID: 8300000, guid: d3c831a6c528a3543a252d9a3290db22, type: 3}
+  incorrectClip: {fileID: 8300000, guid: 9e5f2c9c5bb7cea46ad45661f4854ed5, type: 3}
+  gameEndClip: {fileID: 8300000, guid: b5dbcf7a0f5342546b5341a8cd549f9f, type: 3}
 --- !u!114 &2007792880
 MonoBehaviour:
   m_ObjectHideFlags: 0

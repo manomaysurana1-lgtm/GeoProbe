@@ -116,6 +116,7 @@ public class LoadingScreen : MonoBehaviour
 
     public void ChangeRandomFact()
     {
+        Persisting.Instance.PlaySFX(SFX.ButtonClick);
         if (spaceFacts.Count == 0) return;
 
         string newFact = spaceFacts[Random.Range(0, spaceFacts.Count)];

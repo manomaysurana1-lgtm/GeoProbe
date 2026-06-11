@@ -3,6 +3,11 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
+public enum SFX
+{
+    ButtonClick, Correct, Incorrect, GameEnd
+}
+
 public class Persisting : MonoBehaviour
 {
     public static Persisting Instance;
@@ -15,6 +20,12 @@ public class Persisting : MonoBehaviour
     [SerializeField] Settings settings;
     [SerializeField] Pause pausePanel;
     [SerializeField] GameObject pauseBtn;
+
+    [Header("Audio Clips")]
+    [SerializeField] AudioClip buttonClick;
+    [SerializeField] AudioClip correctClip, incorrectClip, gameEndClip;
+
+    float audioTimer = 0;
 
 
     public float BGMusicVolume
@@ -41,6 +52,55 @@ public class Persisting : MonoBehaviour
         else
         {
             Destroy(gameObject);
+        }
+
+        LoadAudioVolume();
+    }
+
+    private void Update()
+    {
+        audioTimer += Time.deltaTime;
+
+        if(audioTimer >= 3f)
+        {
+            audioTimer = 0f;
+            SaveAudioVolume();
+        }
+    }
+
+    public void SaveAudioVolume()
+    {
+        PlayerPrefs.SetFloat("BG", BGMusicVolume);
+        PlayerPrefs.SetFloat("SFX", SFXVolume);
+
+        PlayerPrefs.Save();
+    }
+
+    public void LoadAudioVolume()
+    {
+        if (PlayerPrefs.HasKey("BG"))
+            BGMusicVolume = PlayerPrefs.GetFloat("BG");
+
+        if (PlayerPrefs.HasKey("SFX"))
+            SFXVolume = PlayerPrefs.GetFloat("SFX");
+    }
+
+    public void PlaySFX(SFX sfxType)
+    {
+        switch(sfxType)
+        {
+            case SFX.ButtonClick:
+                sfxAudioSource.PlayOneShot(buttonClick);
+                break;
+            case SFX.Correct:
+                sfxAudioSource.PlayOneShot(correctClip);
+                break;
+            case SFX.Incorrect:
+                sfxAudioSource.PlayOneShot(incorrectClip);
+                break;
+            case SFX.GameEnd:
+                sfxAudioSource.PlayOneShot(gameEndClip);
+                break;
         }
     }
 
@@ -73,6 +133,7 @@ public class Persisting : MonoBehaviour
 
     public void ShowPausePanel()
     {
+        Persisting.Instance.PlaySFX(SFX.ButtonClick);
         pausePanel.Show();
     }
 }
