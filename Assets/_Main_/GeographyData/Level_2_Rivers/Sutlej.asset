@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b92705b55ada58d4897afade18e5d381, type: 3}
+  m_Name: Sutlej
+  m_EditorClassIdentifier: 
+  featureName: Sutlej
+  easyClue: Major river flowing through the northwestern Himalayas and Punjab
+  mediumClue: Enters India from Tibet and flows through Himachal Pradesh and Punjab
+  hardClue: Cuts through the Himalayas in deep valleys before joining the Indus river
+    system
+  picture: {fileID: 6202612753272960730, guid: 5c0d0dae4ed7e8b43940b95a5cac9c3b, type: 3}
+  latitude: 0
+  longitude: 0

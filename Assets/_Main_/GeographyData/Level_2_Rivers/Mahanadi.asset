@@ -10,10 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b92705b55ada58d4897afade18e5d381, type: 3}
-  m_Name: Indian Peacock
+  m_Name: Mahanadi
   m_EditorClassIdentifier: 
-  featureName: Indian Peacock
-  easyClue: National bird found across most of the Indian subcontinent
-  mediumClue: Common in open forests, farmland edges, and village landscapes
-  hardClue: Most abundant in semi-arid plains and monsoon-influenced regions
-  picture: {fileID: 2253741156578752147, guid: 15e732f34defa35498fa4b1429820e53, type: 3}
+  featureName: Mahanadi
+  easyClue: Major river flowing through central and eastern India
+  mediumClue: Flows through Chhattisgarh and Odisha before entering the Bay of Bengal
+  hardClue: Forms a large, fertile delta along the Odisha coast
+  picture: {fileID: 7600546113883795218, guid: 51a3599f88068fb4e8c0d38c26cbb62c, type: 3}
+  latitude: 0
+  longitude: 0

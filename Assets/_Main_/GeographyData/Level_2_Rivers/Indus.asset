@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b92705b55ada58d4897afade18e5d381, type: 3}
+  m_Name: Indus
+  m_EditorClassIdentifier: 
+  featureName: Indus
+  easyClue: Major river system flowing through the northwestern part of the Indian
+    subcontinent
+  mediumClue: Originates near the Tibetan Plateau and flows through Ladakh before
+    entering Pakistan
+  hardClue: Its upper tributaries drain the western Himalayas and helped form the
+    fertile Punjab region
+  picture: {fileID: 6116351057190785968, guid: 0db37818958e5214cb98e5140463426e, type: 3}
+  latitude: 0
+  longitude: 0
